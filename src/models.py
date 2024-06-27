@@ -70,9 +70,9 @@ class Follower(Base):
     def __repr__(self):
         return '<Follower %r>' % self.id
 
-class Media(Base):
-    __tablename__ = 'medias'
-    id = Column(Integer, primary_key=True)
+# class Media(Base):
+#     __tablename__ = 'medias'
+#     id = Column(Integer, primary_key=True)
 
 
 
